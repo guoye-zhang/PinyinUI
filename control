@@ -1,6 +1,6 @@
 Package: com.ccdog.pinyinui
 Name: PinyinUI
-Depends: firmware (>= 6.0), mobilesubstrate
+Depends: mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
 Description: Convert all Chinese on UI to Pinyin.
