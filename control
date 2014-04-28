@@ -1,8 +1,8 @@
-Package: com.ccdog.pinyinui
-Name: PinyinUI
+Package: com.ccdog.romajiui
+Name: RomajiUI
 Depends: firmware (>= 5.0), mobilesubstrate
 Version: 1.0
 Architecture: iphoneos-arm
-Description: Convert all Chinese on UI to Pinyin.
+Description: Convert all Japanese on UI to Romaji.
 Author: CC-Dog <cc941201@gmail.com>
 Section: Tweaks

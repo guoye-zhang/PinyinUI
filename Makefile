@@ -3,8 +3,8 @@ TARGET = iphone:clang:7.1:5.0
 
 include theos/makefiles/common.mk
 
-TWEAK_NAME = PinyinUI
-PinyinUI_FILES = Tweak.x
+TWEAK_NAME = RomajiUI
+RomajiUI_FILES = Tweak.x NSString+Japanese.m
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 ADDITIONAL_OBJCFLAGS = -fobjc-arc
