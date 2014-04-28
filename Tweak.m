@@ -1,7 +1,7 @@
 #define TRANSFORM \
 NSString *chinese = [NSString stringWithCharacters:originalPointer - length length:length];\
 NSMutableString *to = [chinese mutableCopy];\
-CFStringTransform((CFMutableStringRef)to, NULL, kCFStringTransformMandarinLatin, NO);\
+CFStringTransform((__bridge CFMutableStringRef)to, NULL, kCFStringTransformMandarinLatin, NO);\
 NSArray *parts = [to componentsSeparatedByString:@" "];\
 to = [NSMutableString new];\
 NSUInteger chineseLength = [chinese length];\
